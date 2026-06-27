@@ -1,0 +1,6 @@
+{
+  "name": "Aperture CRM & Booking Management System",
+  "description": "A comprehensive CRM and Booking Management System for wedding photography and videography studios with interactive pricing calculators and custom quotation generation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

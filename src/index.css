@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+}
+
+body {
+  background-color: #F5F2ED;
+  color: #1A1A1A;
+}
+
+/* Custom print layouts */
+@media print {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+  header, aside, .print\:hidden {
+    display: none !important;
+  }
+}
